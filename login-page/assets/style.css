@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  background-image: url(https://github.githubassets.com/images/modules/site/home/hero-glow.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Nav Container */
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background-color: #0000006b;
+  color: cyan;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-container__links {
+  text-decoration: none;
+  color: lime;
+}
+
+.nav-container__links:hover {
+  color: yellow;
+}
+
+.nav-container__col {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.nav-container__col--mobile {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-container__col--left {
+  float: left;
+}
+
+.nav-container__col--right {
+  float: right;
+}
+
+/* Main Container */
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 100vh;
+}
+
+/* Login Form */
+.login-form {
+  color: cyan;
+  width: 95%;
+  border-radius: 10px;
+  background-color: #28282970;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  padding: 10px;
+}
+
+.login-form__items {
+  padding: 11px 29px;
+  text-align: center;
+}
+
+/* Input Fields */
+.input-text {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 15px;
+  color: lime;
+  background-color: black;
+  border-color: lime;
+}
+
+.input-text:focus {
+  border-color: yellow;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 17px 2px yellow;
+          box-shadow: 0px 0px 17px 2px yellow;
+}
+
+/* Buttons */
+.input-btn {
+  padding: 10px 37px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: lime;
+  background-color: black;
+  border-color: lime;
+}
+
+/* Footer Container */
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  background-color: #0000006b;
+  color: cyan;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-container__col {
+  display: inline;
+  list-style: none;
+  text-decoration: none;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.footer-container__col--mobile {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-container__col--left {
+  float: left;
+}
+
+.footer-container__col--right {
+  float: right;
+}
+
+.footer-container__col--center {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
